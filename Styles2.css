@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background: linear-gradient(90deg,rgb(229,205,40), rgb(67,225,221));
+  margin: 0;
+}
+  *{
+    font-family: 'Poppins',Sans-Serif;
+  }
+  .lokmane{
+  color: black;
+  transform: translateY(-10px);
+  
+}
+.lokmane:active{
+  animation-name:rgb;
+  animation-duration: 2s;
+}
+.navbar{
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin: 0;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#a {
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right:10px ;
+  color: white;
+  background: black;
+  border-radius:5px;
+}
+#a:hover{
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+@keyframes hover{
+  from{
+    color:white;
+    background:black;
+  }
+  to{
+    color:black;
+    background:white;
+  }
+}
+form{
+    height: 400px;
+    width: 90%;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 25px 17px;
+    margin-top:50px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 25px;
+    width: 95%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateY( -30px);
+}
+.r{
+  margin-top: 10px;
+  display: inline-block;
+}
+.h1{
+  text-align: center;
+}
+.h2{
+  text-align: center;
+}

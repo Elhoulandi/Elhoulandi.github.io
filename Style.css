@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background: linear-gradient(90deg,rgb(247,121,121) , rgb(232,150,210));
+  margin: 0;
+}
+  *{
+    font-family: 'Poppins',Sans-Serif;
+  }
+main h2{
+  color: white;
+}
+main {
+  height: 500px;
+  max-width: 600px;
+}
+main .apple{
+  width: 250px;
+  height: 250px;
+  transform: translateY(-10px);
+  border-radius: 5px;
+}
+main .div1{
+  display: inline-block;
+  width: 325px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin-left: 15px;
+  
+}
+.h2 {
+  color: black;
+  transform: translateY(-10px);
+  opacity: 100%;
+}
+.a{
+  transform: translateY(-25px);
+  display: inline-block;
+  text-decoration: none;
+  border-radius:5px;
+  background-color: black;
+  color: white;
+  padding:5px 10px ;
+  opacity: 100%;
+}
+main .div1 p{
+  transform: translateY(-20px);
+  opacity: 100%;
+  
+}
+.lokmane{
+  color: black;
+  transform: translateY(-10px);
+  
+}
+.lokmane:active{
+  animation-name:rgb;
+  animation-duration: 2s;
+}
+.navbar{
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin: 0;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#a {
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right:10px ;
+  color: white;
+  background: black;
+  border-radius:5px;
+}
+#a:hover{
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+@keyframes hover{
+  from{
+    color:white;
+    background:black;
+  }
+  to{
+    color:black;
+    background:white;
+  }
+}
+@keyframes rgb{
+  10%{
+    color: red;
+  }
+  20%{
+    color: orange;
+  }
+  30%{
+    color: green;
+  }
+  40%{
+    color:rgb(244,74,219);
+  }
+  50%{
+    color:;
+  }
+}
+ }
